@@ -25,6 +25,10 @@ which are available over at the [original repo](https://github.com/eve-1010/tetr
 
 A running instance is available through this [link](https://eve-1010.github.io/browser-tetris/). Alternatively, clone this repo and open `index.html` in your browser to play.
 
+## Preview
+
+![Gameplay preview](docs/preview.gif)
+
 ## Controls
 
 This game supports keyboard input only.
