@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vmin;
+    color: white;
+}
+
+.gamefield {
+    border: 0.2vh solid rgb(100, 100, 100);
+}
+
+#playfield {
+    z-index: 1;
+}
+
+#grids {
+    position: absolute;
+    z-index: 0;
+}
+
+.screen {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(30, 30, 20, 0.6);
+    text-align: center;
+    font-size: 7vh;
+}
+
+.menu {
+    position: relative;
+    top: 23vh;
+    margin: auto;
+}
+
+#score {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
+}
+
+.button {
+    display: block;
+    margin: 3vh auto;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vh;
+}
+
+.menu button:hover {
+    color: lightgrey;
+}
+
+::selection {
+    background: transparent;
+}

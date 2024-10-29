@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Browser Tetris</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div class="gamefield">
+            <canvas id="grids"></canvas>
+            <canvas id="playfield"></canvas>
+        </div>
+
+        <div class="screen" id="pause-screen">
+            <div class="menu" id="pause-menu">
+                <p>PAUSED</p>
+                <button class="button" id="btn-resume">RESUME</button>
+                <button class="button" id="btn-restart">RESTART</button>
+            </div>
+        </div>
+
+        <div class="screen" id="game-over-screen">
+            <div class="menu" id="game-over-menu">
+                <p>GAME OVER</p>
+                <p id="score"></p>
+                <button class="button" id="btn-restart1">RESTART</button>
+            </div>
+        </div>
+    </body>
+</html>
