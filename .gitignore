@@ -1,0 +1,9 @@
+# vscode configuration files
+.vscode/
+
+# vim files
+Session.vim
+*.swp
+
+# custom
+ignore/
