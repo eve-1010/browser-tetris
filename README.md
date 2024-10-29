@@ -2,7 +2,7 @@
 
 A minimalist Tetris game built using HTML, CSS, and vanilla Javascript.
 
-This repo includes only the core functions of https://github.com/eve-1010/tetris-in-browser, which was developed for a school project.
+This repo includes only the core functions of https://github.com/invzfnc/tetris-in-browser, which was developed for a school project.
 
 ## Features
 
@@ -19,11 +19,11 @@ This implementation does not contain:
 - Background music
 - Timer
   
-which are available over at the [original repo](https://github.com/eve-1010/tetris-in-browser).
+which are available over at the [original repo](https://github.com/invzfnc/tetris-in-browser).
 
 ## Usage
 
-A running instance is available through this [link](https://eve-1010.github.io/browser-tetris/). Alternatively, clone this repo and open `index.html` in your browser to play.
+A running instance is available through this [link](https://invzfnc.github.io/browser-tetris/). Alternatively, clone this repo and open `index.html` in your browser to play.
 
 ## Preview
 
@@ -45,4 +45,4 @@ This game supports keyboard input only.
 
 ## License
 
-This software is licensed under the [MIT License](https://github.com/eve-1010/browser-tetris/blob/main/LICENSE) © [Cha](https://github.com/eve-1010)
+This software is licensed under the [MIT License](https://github.com/invzfnc/browser-tetris/blob/main/LICENSE) © [Cha](https://github.com/invzfnc)
